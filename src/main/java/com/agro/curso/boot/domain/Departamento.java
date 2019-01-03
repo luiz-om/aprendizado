@@ -2,10 +2,8 @@ package com.agro.curso.boot.domain;
 
 import java.util.List;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
+
 
 
 
@@ -21,6 +19,14 @@ public class Departamento extends AbstractEntity<Long> {
 
 	
 	
+	public List<Cargo> getCargos() {
+		return cargos;
+	}
+
+	public void setCargos(List<Cargo> cargos) {
+		this.cargos = cargos;
+	}
+
 	public String getNome() {
 		return nome;
 	}
