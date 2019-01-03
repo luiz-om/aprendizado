@@ -2,7 +2,7 @@ package com.agro.curso.boot.domain;
 
 import java.io.Serializable;
 
-import javax.persistence.GeneratedValue;
+
 import javax.persistence.*;
 
 @MappedSuperclass
