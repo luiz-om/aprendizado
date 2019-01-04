@@ -85,7 +85,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- Adicionando Thymeleaf -->
 
+		<dependency>
+			<groupId>nz.net.ultraq.thymeleaf</groupId>
+			<artifactId>thymeleaf-layout-dialect</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
